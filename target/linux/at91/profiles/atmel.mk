@@ -86,11 +86,11 @@ endef
 $(eval $(call Profile,AT91SAM9X35EK))
 
 
-define Profile/AT91SAMA5D3XEK
-	NAME:=Atmel AT91SAMA5D3X-EK
+define Profile/AT91SAMA5D31EK
+	NAME:=Atmel AT91SAMA5D31-EK
 endef
-define Profile/AT91SAMA5D3XEK/Description
-	Atmel AT91SAMA5D3X-EK eval board
+define Profile/AT91SAMA5D31EK/Description
+	Atmel AT91SAMA5D31-EK eval board
 endef
-$(eval $(call Profile,AT91SAMA5D3XEK))
+$(eval $(call Profile,AT91SAMA5D31EK))
 

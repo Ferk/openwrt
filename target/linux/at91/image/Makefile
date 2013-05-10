@@ -38,7 +38,7 @@ Image/Build/Kernel/AT91SAM9G35EK=$(call MkuImageDtb,9g35ek,at91sam9g35ek)
 Image/Build/Kernel/AT91SAM9M10G45EK=$(call MkuImageDtb,9m10g45ek,at91sam9m10g45ek)
 Image/Build/Kernel/AT91SAM9X25EK=$(call MkuImageDtb,9x25ek,at91sam9x25ek)
 Image/Build/Kernel/AT91SAM9X35EK=$(call MkuImageDtb,9x35ek,at91sam9x35ek)
-Image/Build/Kernel/AT91SAMA5D3XEK=$(call MkuImageDtb,a5d3xek,at91sama5d3xek)
+Image/Build/Kernel/AT91SAMA5D31EK=$(call MkuImageDtb,sama5d31ek,sama5d31ek)
 # CalAmp
 Image/Build/Kernel/LMU5000=$(call MkuImageDtb,lmu5000,lmu5000)
 # Caloa
@@ -61,7 +61,7 @@ define Image/Build/Kernel/Default
 	$(call Image/Build/Kernel/AT91SAM9M10G45EK)
 	$(call Image/Build/Kernel/AT91SAM9X25EK)
 	$(call Image/Build/Kernel/AT91SAM9X35EK)
-	$(call Image/Build/Kernel/AT91SAMA5D3XEK)
+	$(call Image/Build/Kernel/AT91SAMA5D31EK)
 	$(call Image/Build/Kernel/LMU5000)
 	$(call Image/Build/Kernel/TNYA9260)
 	$(call Image/Build/Kernel/TNYA9263)
