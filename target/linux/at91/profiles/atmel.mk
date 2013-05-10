@@ -84,3 +84,13 @@ define Profile/AT91SAM9X35EK/Description
 	Atmel AT91SAM9X35-EK eval board
 endef
 $(eval $(call Profile,AT91SAM9X35EK))
+
+
+define Profile/AT91SAMA5D3XEK
+	NAME:=Atmel AT91SAMA5D3X-EK
+endef
+define Profile/AT91SAMA5D3XEK/Description
+	Atmel AT91SAMA5D3X-EK eval board
+endef
+$(eval $(call Profile,AT91SAMA5D3XEK))
+
