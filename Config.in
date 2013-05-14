@@ -175,7 +175,7 @@ menu "Global build settings"
 	config SHADOW_PASSWORDS
 		bool
 		prompt "Enable shadow password support"
-		default y
+		default n
 		help
 		  Enable shadow password support.
 
